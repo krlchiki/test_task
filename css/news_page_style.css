@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body,html{
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(245, 242, 242);
+}
+
+.wrapper{
+  display: grid;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.news{
+  width: 50vw;
+
+  background-color: rgb(255, 255, 255);  
+  border: 2px solid #c5c5c5;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.text{
+  text-align: justify;
+}
+
+.button_container{
+  gap: 5%;
+  padding: 25px;
+  margin-bottom: 30px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  height: 60px;
+  padding: 7px 28px;
+  cursor: pointer;
+  background-color: #BE1116;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+.btn:hover{
+  background-color: rgb(255, 255, 255);
+  color: #BE1116;
+  border: 1px solid #BE1116;
+
+  transition: all 0.2s ease;
+}
+
+
+@media (max-width: 1200px) {
+  .news {
+    width: 70vw;
+  } 
+  .btn{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .news {
+    width: 75vw;
+  }   
+  .btn{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .news {
+    width: 80vw;
+  }  
+  .btn{
+    font-size: 12px;
+  }
+}
