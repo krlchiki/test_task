@@ -22,6 +22,9 @@
   if ($phone === '') {
     $error_fields[] = 'phone';
   };
+  if ($email === '') {
+    $error_fields[] = 'email';
+  };
 
   if (!empty($error_fields)){
     $response = [
