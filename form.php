@@ -34,7 +34,7 @@ require_once __DIR__ . '/php_vendor/helpers.php';
             <input type="tel" class="form_input phone_input" name="phone" id="phone" placeholder="+7 (999) 999-99-99" >
           </div>
           <div class="input_container">
-            <label for="email" class="label_input">E-mail</label>
+            <label for="email" class="label_input">*E-mail</label>
             <input type="email" class="form_input" name="email" id="email" placeholder="example@mail.ru" >
           </div>
           <div class="button_container">
